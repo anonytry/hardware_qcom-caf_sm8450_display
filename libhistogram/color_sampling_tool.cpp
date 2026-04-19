@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+#define _ASM_GENERIC_SIGNAL_H
 #include <signal.h>
 #include <unistd.h>
 #include <chrono>

@@ -26,9 +26,7 @@ cc_library_shared {
     ],
     header_libs: [
         "display_headers",
-        "qti_kernel_headers",
         "qti_display_kernel_headers",
-        "device_kernel_headers",
     ],
 
     cflags: [
@@ -60,9 +58,7 @@ cc_binary {
     ],
     header_libs: [
         "display_headers",
-        "qti_kernel_headers",
         "qti_display_kernel_headers",
-        "device_kernel_headers",
     ],
 
     cflags: [
@@ -96,9 +92,7 @@ cc_binary {
     ],
     header_libs: [
         "display_headers",
-        "qti_kernel_headers",
         "qti_display_kernel_headers",
-        "device_kernel_headers",
     ],
 
     cflags: [
